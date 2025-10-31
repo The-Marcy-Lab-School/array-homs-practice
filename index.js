@@ -2,11 +2,7 @@
 // You should not use any for or while loops!
 // For each section, we've provided some sample data for you to test your function with.
 
-/* -------------------------------------------- */
-/* --------------forEach PROBLEMS-------------- */
-/* -------------------------------------------- */
-
-const sampleNumbers3 = [25, 60, 15, 80, 45, 100, 30];
+const sampleNumbers = [25, 60, 15, 80, 45, 100, 30];
 
 const sampleProducts = [
   { name: 'Laptop', price: 999, inStock: true },
@@ -14,6 +10,11 @@ const sampleProducts = [
   { name: 'Keyboard', price: 75, inStock: false },
   { name: 'Monitor', price: 300, inStock: true }
 ];
+
+/* -------------------------------------------- */
+/* --------------forEach PROBLEMS-------------- */
+/* -------------------------------------------- */
+
 
 // Problem 1
 const printAllNumbers = (numbers) => {
@@ -29,19 +30,10 @@ const printProductNames = (products) => {
 /* ----------------map PROBLEMS---------------- */
 /* -------------------------------------------- */
 
-const sampleNumbers2 = [5, 10, 15, 20];
-
 // Problem 3
 const doubleNumbers = (numbers) => {
 
 };
-
-const sampleProducts2 = [
-  { name: 'Laptop', price: 999, inStock: true },
-  { name: 'Mouse', price: 25, inStock: true },
-  { name: 'Keyboard', price: 75, inStock: false },
-  { name: 'Monitor', price: 300, inStock: true }
-];
 
 // Problem 4
 const getProductPrices = (products) => {
